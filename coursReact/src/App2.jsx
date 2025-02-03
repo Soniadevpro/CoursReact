@@ -1,12 +1,25 @@
-const Bonjour = () => {
+import React from 'react'
+import MonComposantClass from "../components/Bonjour"
+import Salutation from "../components/Salut"
 
-    return <h2>Bonjour</h2>
-}
+// const Bonjour = () => {
+
+//     return <h2>Bonjour</h2>
+// }
 
 
 function App2() {
-    return <Bonjour/>
+
+    return (
+        <div>
+            <MonComposantClass/> 
+            <Salutation/>
+
+        </div>
+    )
+    
 }
+
 
 
 export default App2
