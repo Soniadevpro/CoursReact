@@ -4,10 +4,10 @@
 // import Welcome from '../components/Welcome'
 // import WelcomeFunc from '../components/WelcomeFunc'
 // import Compteur from '../components/Compteur'
-// import Formulaire from '../components/Formulaire'
-import OnOff from '../components/OnOff'
+import Formulaire from '../components/Formulaire'
+// import OnOff from '../components/OnOff'
 
-// import TaskList from "../../07.tache/TaskList"
+import TaskList from "../components/TaskList"
 // import RegisterForm from "../../07.tache/Formulaire"
 
 
@@ -27,9 +27,9 @@ function App2() {
             <WelcomeFunc name="Bob" /> */}
             {/* <Compteur/> */}
             {/* <Formulaire/> */}
-            <OnOff/>
-            {/* <TaskList/>
-            <RegisterForm/> */}
+            {/* <OnOff/> */}
+             <TaskList/>
+            {/* <RegisterForm/>  */}
           
         </div>
     )
