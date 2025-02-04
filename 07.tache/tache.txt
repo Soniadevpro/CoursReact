@@ -1,0 +1,14 @@
+///////////////////////////////
+3-0-taches.js
+/*
+Spread Operator:
+Si vous avez un tableau et que vous souhaitez copier ses éléments dans un nouveau tableau, 
+vous pouvez utiliser la syntaxe spread :
+    const arr = [1, 2, 3];
+    const arr2 = [...arr];
+    console.log(arr2) // [1, 2, 3]
+pour ajouter un element:
+    const arr2 = [...arr,4];
+    console.log(arr2) // [1, 2, 3, 4]
+
+*/

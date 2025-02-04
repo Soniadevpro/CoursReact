@@ -1,11 +1,15 @@
-import React from 'react'
-import MonComposantClass from "../components/Bonjour"
-import Salutation from "../components/Salut"
-import Welcome from '../components/Welcome'
-import WelcomeFunc from '../components/WelcomeFunc'
-import Compteur from '../components/Compteur'
-import Formulaire from '../components/Formulaire'
+
+// import MonComposantClass from "../components/Bonjour"
+// import Salutation from "../components/Salut"
+// import Welcome from '../components/Welcome'
+// import WelcomeFunc from '../components/WelcomeFunc'
+// import Compteur from '../components/Compteur'
+// import Formulaire from '../components/Formulaire'
 import OnOff from '../components/OnOff'
+
+// import TaskList from "../../07.tache/TaskList"
+// import RegisterForm from "../../07.tache/Formulaire"
+
 
 // const Bonjour = () => {
 
@@ -17,13 +21,16 @@ function App2() {
 
     return (
         <div>
-            <MonComposantClass/> 
+            {/* <MonComposantClass/> 
             <Salutation/>
             <Welcome/>
-            <WelcomeFunc name="Bob" />
-            <Compteur/>
-            <Formulaire/>
+            <WelcomeFunc name="Bob" /> */}
+            {/* <Compteur/> */}
+            {/* <Formulaire/> */}
             <OnOff/>
+            {/* <TaskList/>
+            <RegisterForm/> */}
+          
         </div>
     )
     
