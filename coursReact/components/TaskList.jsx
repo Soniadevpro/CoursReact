@@ -203,14 +203,12 @@
 import  { useState } from "react";
 
 const SaisieTache = () => {
-  const [tache, setTache] = useState("");
-  const [taches, setTaches] = useState([]);
+  const [etat, setEtat] = useState({ tache: "", taches: [] });
 
   const ajouterTache = (e) => {
     e.preventDefault();
-    if (tache.trim() !== "") {
-      setTaches([...taches, tache]);
-      setTache("");
+    if (etat.tache.trim() !== "") {
+      setEtat({ ...etat, taches: [...etat.taches, etat.tache], tache: "" });
     }
   };
 
@@ -220,13 +218,13 @@ const SaisieTache = () => {
         <input
           type="text"
           placeholder="Saisissez une tâche"
-          value={tache}
-          onChange={(e) => setTache(e.target.value)}
+          value={etat.tache}
+          onChange={(e) => setEtat({ ...etat, tache: e.target.value })}
         />
         <button type="submit">Ajouter</button>
       </form>
       <ul>
-        {taches.map((t, index) => (
+        {etat.taches.map((t, index) => (
           <li key={index}>{t}</li>
         ))}
       </ul>
@@ -235,3 +233,4 @@ const SaisieTache = () => {
 };
 
 export default SaisieTache;
+
