@@ -12,7 +12,8 @@ import RegisterForm from "../../07.tache/Formulaire"
 import ParentComponent from "../components/ParentComponent"
 import StyledPara from "../components/stylePara"
 
-import HoverButton from "../components/MyButton"
+// import HoverButton from "../components/MyButton"
+import StyleButton from "../components/StyleButton"
 
 
 // const Bonjour = () => {
@@ -32,11 +33,12 @@ function App2() {
             {/* <Compteur/> */}
             {/* <Formulaire/> */}
             {/* <OnOff/> */}
-             <TaskList/>
+            <TaskList/>
             <RegisterForm/> 
             <ParentComponent/>
             <StyledPara/>
-            <HoverButton/>
+            {/* <HoverButton/> */}
+            <StyleButton/>
           
         </div>
     )
