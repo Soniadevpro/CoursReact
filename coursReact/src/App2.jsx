@@ -14,6 +14,8 @@ import StyledPara from "../components/stylePara"
 
 // import HoverButton from "../components/MyButton"
 import StyleButton from "../components/StyleButton"
+import NavigMenu from "../components/NavigMenu"
+import Theme from "../components/Theme"
 
 
 // const Bonjour = () => {
@@ -26,6 +28,7 @@ function App2() {
 
     return (
         <div>
+            <NavigMenu/>
             {/* <MonComposantClass/> 
             <Salutation/>
             <Welcome/>
@@ -39,6 +42,7 @@ function App2() {
             <StyledPara/>
             {/* <HoverButton/> */}
             <StyleButton/>
+            <Theme/>
           
         </div>
     )

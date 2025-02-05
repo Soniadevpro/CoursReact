@@ -1,0 +1,30 @@
+/* MenuStyles.css */
+.nav-menu {
+  background-color: #333;
+  padding: 10px;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 24px;
+}
+
+.nav-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-menu li {
+  margin-right: 20px;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: background 0.3s ease-in-out;
+  border-radius: 3px;
+}
+
+.nav-menu a:hover {
+  background-color: #c95101;
+}
